@@ -83,7 +83,8 @@ class DatasetReader(Registrable):
         You are strongly encouraged to use a generator, so that users can
         read a dataset in a lazy way, if they so choose.
         """
-        raise NotImplementedError
+        #raise NotImplementedError
+        yield instance
 
     def text_to_instance(self, *inputs) -> Instance:
         """
