@@ -3,6 +3,7 @@
 //   ArXiv/1611.01603 (2016)
 {
   "dataset_reader": {
+    "lazy":true,
     "type": "squad",
     "token_indexers": {
       "tokens": {
